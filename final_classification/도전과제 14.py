@@ -89,7 +89,7 @@ class ClassificationAI(QWidget):
             self.image_lable.setPixmap(pixmap)
             self.text_lable.setText(self.model.predict(path))
             self.button5.setText('이미지 분류 완료')
-            self.button5.setEnabled(False)
+
 
 def except_hook(cls,exception,traceback):
     sys.__excepthook__(cls,exception,traceback)

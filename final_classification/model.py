@@ -57,8 +57,10 @@ class Model:
             b.append((i,j))
         b.sort(key= lambda x:x[1])
         b.reverse()
+        c=""
         for i in range(len(b)):
-            c = "{0:<10}{1}{2:<}{3}\n".format(a[i][0],":",a[i][1],"%")
+            c += "{0:<20}{1}{2:<}{3}\n".format(b[i][0],":",b[i][1],"%")
+        print(c)
         #index = np.argmax(predict)
 
         return c #self.class_names[index]
