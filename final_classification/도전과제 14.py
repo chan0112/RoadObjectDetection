@@ -44,11 +44,11 @@ class ClassificationAI(QWidget):
 
         self.hbox_layout1 = QHBoxLayout()
         self.hbox_layout1.addWidget(self.image_lable)
-        self.group_box3.setLayout(self.hbox_layout1)
+        self.group_box2.setLayout(self.hbox_layout1)
 
         self.hbox_layout2 = QHBoxLayout()
         self.hbox_layout2.addWidget(self.text_lable)
-        self.group_box2.setLayout(self.hbox_layout2)
+        self.group_box3.setLayout(self.hbox_layout2)
 
 
         self.main_layout = QGridLayout()
@@ -64,12 +64,13 @@ class ClassificationAI(QWidget):
 
 
     def button2_click(self):
-        self.button4.setEnabled(False)
+        self.button2.setEnabled(False)
+        self.model.bulid()
         self.model.train()
 
 
     def button3_click(self):
-        self.button4.setEnabled(False)
+        self.button3.setEnabled(False)
         self.model.save()
 
 
@@ -80,18 +81,22 @@ class ClassificationAI(QWidget):
 
 
     def button5_click(self):
-        self.button5.setEnabled(False)
-        path, _ = QFileDialog.getOpenFileName(self, '', '../data.images', 'IMAGE Files(*.jpg *.png)')
+        path, _ = QFileDialog.getOpenFileName(self, '', '../classification_date/', 'IMAGE Files(*.jpg *.png)')
         if path == '':
            print('취소')
         else:
+            pixmap = QPixmap(path)
+            self.image_lable.setPixmap(pixmap)
             self.text_lable.setText(self.model.predict(path))
             self.button5.setText('이미지 분류 완료')
+            self.button5.setEnabled(False)
 
-
+def except_hook(cls,exception,traceback):
+    sys.__excepthook__(cls,exception,traceback)
 
 
 if __name__=='__main__':
+    sys.excepthook = except_hook
     app = QApplication(sys.argv)
     classification_ai = ClassificationAI()
     classification_ai.show()

@@ -43,13 +43,25 @@ class Model:
 
     # 예측
     def predict(self, path):
+        a={}
+        a=dict()
+        b=[]
         image = cv2.imread(path)
         resize_image = cv2.resize(image, (224,224))
-        data = np.array([image])
+        data = np.array([resize_image])
         predict = self.model.predict(data)
-        index = np.argmax(predict)
+        for i in range(len(predict[0])):
+            op = predict[0][i] * 100
+            a[self.class_names[i]] = round(op,2)
+        for i, j in a.items():
+            b.append((i,j))
+        b.sort(key= lambda x:x[1])
+        b.reverse()
+        for i in range(len(b)):
+            c = "{0:<10}{1}{2:<}{3}\n".format(a[i][0],":",a[i][1],"%")
+        #index = np.argmax(predict)
 
-        return self.class_names[index]
+        return c #self.class_names[index]
 
     # 모델 저장
     def save(self):

@@ -12,7 +12,7 @@ print(data.shape)
 predict = model.predict(data)
 print(predict)
 
-index =  np.argmax(predict)
+index = np.argmax(predict)
 print(index)
 class_names = ['bike','bus','car','motor']
 
