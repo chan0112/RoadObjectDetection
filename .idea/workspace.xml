@@ -26,13 +26,17 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/final_classification" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\lovec\PycharmProjects\RoadObjectDetection\final_classification" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\lovec\PycharmProjects\RoadObjectDetection\final_classification" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.도전과제 14 (1)">
+  <component name="RunManager" selected="Python.retinanet">
     <configuration name="도전과제 14 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="RoadObjectDetection" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -54,7 +58,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="도전과제 14" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="ac" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="RoadObjectDetection" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -62,11 +66,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/quiz" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/object_detection" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\lovec\PycharmProjects\RoadObjectDetection\final_classification\도전과제 14.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/object_detection/ac.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -96,48 +100,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="dsa" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="RoadObjectDetection" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab_classification" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lab_classification/dsa.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="dsad" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="RoadObjectDetection" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab_classification" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lab_classification/dsad.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="model" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="RoadObjectDetection" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -159,13 +121,34 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="retinanet" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="RoadObjectDetection" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/object_detection" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/object_detection/retinanet.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.retinanet" />
+        <item itemvalue="Python.ac" />
         <item itemvalue="Python.도전과제 14 (1)" />
         <item itemvalue="Python.dasds" />
         <item itemvalue="Python.model" />
-        <item itemvalue="Python.dsad" />
-        <item itemvalue="Python.dsa" />
       </list>
     </recent_temporary>
   </component>
@@ -199,27 +182,27 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="500" y="160" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1644039859771" />
-    <state width="1515" height="171" key="GridCell.Tab.0.bottom" timestamp="1647075876412">
+    <state width="1143" height="171" key="GridCell.Tab.0.bottom" timestamp="1647675197320">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="171" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1647075876412" />
-    <state width="1515" height="171" key="GridCell.Tab.0.center" timestamp="1647075876411">
+    <state width="1143" height="171" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1647675197320" />
+    <state width="1143" height="171" key="GridCell.Tab.0.center" timestamp="1647675197319">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="171" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1647075876411" />
-    <state width="1515" height="171" key="GridCell.Tab.0.left" timestamp="1647075876411">
+    <state width="1143" height="171" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1647675197319" />
+    <state width="1143" height="171" key="GridCell.Tab.0.left" timestamp="1647675197319">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="171" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1647075876411" />
-    <state width="1515" height="171" key="GridCell.Tab.0.right" timestamp="1647075876412">
+    <state width="1143" height="171" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1647675197319" />
+    <state width="1143" height="171" key="GridCell.Tab.0.right" timestamp="1647675197319">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="171" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1647075876412" />
-    <state x="547" y="222" key="com.intellij.ide.util.TipDialog" timestamp="1647061928669">
+    <state width="1143" height="171" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1647675197319" />
+    <state x="547" y="222" key="com.intellij.ide.util.TipDialog" timestamp="1647666881637">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="684" y="280" key="com.intellij.ide.util.TipDialog/-3840.-546.1536.848/0.0.1920.1040@0.0.1920.1040" timestamp="1647014628281" />
-    <state x="547" y="222" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1647061928669" />
+    <state x="547" y="222" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1647666881637" />
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1646469376660">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

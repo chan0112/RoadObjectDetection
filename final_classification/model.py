@@ -61,9 +61,8 @@ class Model:
         for i in range(len(b)):
             c += "{0:<20}{1}{2:<}{3}\n".format(b[i][0],":",b[i][1],"%")
         print(c)
-        #index = np.argmax(predict)
 
-        return c #self.class_names[index]
+        return c
 
     # 모델 저장
     def save(self):
