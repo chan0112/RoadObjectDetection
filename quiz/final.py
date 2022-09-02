@@ -23,7 +23,7 @@ class PredictWorker(QThread):
 
     def run(self):
         image = cv2.imread(self.image_path)
-        res_image = cv2.resize(image,(3840,2160))
+        res_image = cv2.resize(image,(2560,1440))
         result = self.model.predict(res_image)
         if not os.path.exists('../outputs'):
             os.mkdir('../outputs')
